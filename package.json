@@ -1,16 +1,16 @@
 {
-  "name": "keccakjs",
-  "version": "0.2.1",
-  "description": "Keccak hash (SHA3) in Node.js and in the browser. Fast & simple.",
+  "name": "keccakjs-browseronly",
+  "version": "0.0.1",
+  "description": "Keccak hash (SHA3) in the browser only. Forked from keccakjs",
   "main": "index.js",
   "scripts": {
     "test": "exit 0"
   },
   "author": {
-    "name": "Alex Beregszaszi",
-    "email": "alex@rtfs.hu"
+    "name": "Rick Behl",
+    "email": "rickbehl@gmail.com"
   },
-  "repository": "https://github.com/axic/keccakjs",
+  "repository": "https://github.com/Nexus7/keccakjs-browseronly",
   "keywords": [
     "sha3",
     "keccak",

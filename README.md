@@ -1,4 +1,4 @@
-# Keccak.js
+# Keccak.js - minor modified version which only loads client side sha3 as server side C++ causes issues with Meteor 1.3+
 
 The only Keccak hash (aka SHA3 before standardisation) library you need in Javascript. Ever. Pinky promise!
 

@@ -18,8 +18,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "browserify-sha3": "^0.0.1",
-    "sha3": "^1.1.0"
+    "browserify-sha3": "^0.0.1"
   },
   "browser": "browser.js"
 }

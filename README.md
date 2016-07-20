@@ -1,19 +1,15 @@
 # Keccak.js 
 
-## Minor modified version which only loads client side sha3 as server side C++ causes issues with Meteor 1.3+
+### Minor modified version which only loads client side sha3 as server side C++ causes issues with Meteor 1.3+
 
-The only Keccak hash (aka SHA3 before standardisation) library you need in Javascript. Ever. Pinky promise!
+### Notes below taken from the original keccakjs library ->
 
-It is a meta package and lets you to use `node-sha3` or `js-sha3` with the same interface on your choice of deployment. It uses `browserify-sha3` to do the mapping for you.
-
-There's no speed loss, it is as thin as it can get (but there is some twiddling in `package.json` to select the right package for your environment):
-```js
-module.exports = require('sha3').SHA3Hash
-```
+It uses `browserify-sha3` to do the mapping for you.
 
 Example usage:
+
 ```js
-const keccak = require('keccakjs')
+const keccak = require('keccakjs-browseronly')
 
 var hash = new keccak() // uses 512 bits by default
 hash.update('hello')

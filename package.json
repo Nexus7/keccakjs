@@ -1,6 +1,6 @@
 {
   "name": "keccakjs-browseronly",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Keccak hash (SHA3) in the browser only. Forked from keccakjs",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "browserify-sha3": "^0.0.1"
+    "browserify-sha3": "^0.0.1",
+    "buffer": "^4.7.1"
   },
   "browser": "browser.js"
 }
